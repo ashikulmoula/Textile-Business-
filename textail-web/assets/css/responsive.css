@@ -1,0 +1,271 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  nav li {
+    padding: 10px 0px 20px 36px !important;
+  }
+  .subscriber-fild {
+    display: none;
+  }
+  .socal-icon-area .socal-icon ul li {
+    padding: 0px 37px !important;
+  }
+  .socal-icon-area .socal-icon {
+    position: absolute !important;
+    left: -2% !important;
+  }
+  .pointer-5 {
+    left: 368px !important;
+  }
+
+  .socal-icon-area .socal-icon ul {
+    margin-left: -330px !important;
+    list-style: none;
+    width: 100%;
+    display: inline;
+    margin-top: ;
+  }
+  .socal-icon-area .socal-icon ul li {
+    padding: 1px !important;
+    line-height: 0.5;
+    display: inline-block;
+  }
+  .socal-icon-area .socal-icon ul li a {
+    padding: 20px 19px;
+  }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .heder-top {
+    display: none;
+  }
+  .heder-nav::before {
+    display: none;
+  }
+  .heder-nav .logo img {
+    margin-top: 33px !important;
+  }
+  .heder-nav .logo p {
+    position: absolute !important;
+    top: 12px !important;
+  }
+  /* #menu is the original menu */
+
+  .slicknav_menu {
+    display: block;
+  }
+  nav a::before {
+    left: 12px !important;
+    top: 70px !important;
+  }
+  nav li {
+    display: inline-block !important;
+    padding: 43px 7px !important;
+  }
+
+  .our-Capabilities {
+    margin-top: 100px;
+  }
+  .service-box {
+    position: relative !important;
+    top: 40px !important;
+    margin-bottom: -180px !important;
+  }
+  .Products-Category {
+    margin-top: 500px;
+    margin-left: -90px;
+  }
+  .Products-Category-box {
+    left: 20% !important;
+  }
+  .section-counter-padding {
+    margin-left: -36px !important;
+  }
+  .count h2 span {
+    right: 0% !important;
+    font-size: 32px !important;
+  }
+  .section-counter-padding .col-md-3 {
+    width: 25% !important;
+    float: left !important;
+  }
+  .count h2 span i.fab i.fa {
+    margin-right: 105px !important;
+  }
+  .count h2 span i.fa {
+    margin-right: 105px !important;
+  }
+  .absolute-quality-box .col-md-4 {
+    width: 50% !important;
+  }
+  .absolute-quality-box .col-md-4:last-of-type {
+    display: none;
+  }
+  .absolute-quality-box .col-md-4:nth-of-type(2) {
+    border: none !important;
+  }
+  .owl-carousel.owl-loaded {
+    display: block;
+    overflow: auto;
+  }
+  .subscriber-area {
+    margin-top: 400px !important;
+  }
+  .subscriber-fild {
+    display: none;
+  }
+  .socal-icon ul li {
+    padding: 0px 37px;
+  }
+  .socal-icon-area .socal-icon {
+    position: absolute;
+    left: 24%;
+  }
+  .socal-icon-area {
+    padding: 11px 20px 43px 10px !important;
+  }
+  .footer-area .col-md-3 {
+    width: 25% !important;
+    float: left !important;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .heder-top {
+    display: none;
+  }
+  .heder-nav::before {
+    display: none;
+  }
+  .heder-nav .logo img {
+    margin-top: 33px !important;
+  }
+  .heder-nav .logo p {
+    display: none;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    top: 0;
+    background: #333;
+    right: -100px;
+    transition: all 0.5s;
+  }
+  nav .active {
+    right: 0px !important;
+    display: block !important;
+  }
+  nav ul {
+    margin-top: 71px;
+    display: block !important;
+    text-align: center;
+  }
+  nav li {
+    display: block;
+  }
+  .toggel-nav i.fas {
+    display: block !important;
+  }
+  .heder-nav {
+    margin-top: -15px !important;
+  }
+  .heder-nav::after {
+    top: 96px !important;
+  }
+  .service-box {
+    width: 100% !important;
+    display: block;
+    position: static !important;
+    left: 0px !important;
+    height: 100%;
+  }
+  .col-md-4 {
+    margin-top: 25px !important;
+    width: 100% !important;
+    float: left;
+  }
+  .video-aria {
+    padding-top: 40px !important;
+  }
+  button {
+    margin-top: 143px !important;
+  }
+  .our-Capabilities {
+    margin-top: 50px !important;
+  }
+  .Products-Category {
+    display: block;
+    position: relative;
+    margin-top: 200px;
+  }
+  .absolute-quality-box .col-md-4:nth-of-type(2) {
+    display: none !important;
+  }
+  .absolute-quality-box .col-md-4:nth-of-type(3) {
+    display: none !important;
+  }
+  .listing-carosel .owlCarousel {
+    flex-direction: 2;
+  }
+  .news-carosel .owl-dots {
+    margin-left: 26% !important;
+  }
+  .cntact-number {
+    top: 338px !important;
+  }
+  .cntact-address {
+    top: 411px !important;
+  }
+  .pointer-1 {
+    left: 30px !important;
+    top: 99px !important;
+  }
+  .pointer-2 {
+    top: 13px !important;
+  }
+  .pointer-5 {
+    left: 125px !important;
+  }
+
+  .subscriber-area {
+    margin-top: 400px !important;
+  }
+  .subscriber-fild {
+    display: none;
+  }
+  .socal-icon-area .socal-icon ul li {
+    padding: 0px 37px;
+  }
+  .socal-icon-area .socal-icon {
+    position: absolute !important;
+    left: -2% !important;
+  }
+  .socal-icon-area {
+    padding: 11px 20px 43px 10px !important;
+  }
+  .footer-area .col-md-3:nth-of-type(1) {
+    display: none;
+  }
+  .footer-area .col-md-3:nth-of-type(2) {
+    display: none;
+  }
+  .footer-area .col-md-3:nth-of-type(3) {
+    display: none;
+  }
+  .footer-area {
+    text-align: center;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .heder-top {
+    display: none !important;
+  }
+  .news-carosel .owl-dots {
+    margin-left: 38% !important;
+  }
+  .socal-icon-area .socal-icon ul {
+    padding: 0px 148px !important;
+  }
+}
